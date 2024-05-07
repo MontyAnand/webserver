@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="webserver-name">Enter the webserver name:</label>
+    <input type="text" name="webserver-name" id="webserver-name">
+    <form id="form-upload">
+        <div style="display: none;" id="file-upload">
+            <label for="file-upload">Upload File : </label>
+            <input id="fileinput" type="file" accept=".html">
+        </div>
+        <input type="submit">
+    </form>
+    
+    <script src="https://cdn.socket.io/4.3.2/socket.io.min.js"></script>
+    <script src="client.js"></script>
+</body>
+</html>
